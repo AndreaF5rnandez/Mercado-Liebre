@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercadoLiebre</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Roboto&display=swap" rel="stylesheet">    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="/css/styles.css" rel="stylesheet"> 
+</head>
+</head>
+<body class="home22">
+    <header class="header1">
+        <div class="reg-campo1">
+            <img src="\img\logo-mercado-liebre.svg" class="logo">
+            <div class="help"><i class="far fa-question-circle"></i></div>
+        </div>
+        
+    </header>
+    <main class="fondo22">
+        <nav class="reg-main">
+            <form action="resultado.html" method="POST">
+                <p>
+                    <input id="main-agrandar" type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido"  required>
+                </p>
+                <p>
+                    <input id="main-agrandar" type="text" name="Usuario" placeholder="Nombre de Usuario" required>
+                </p>
+                <p>
+                    <input id="main-agrandar" type="email" name="E-mail" placeholder="E-mail" required>
+                </p>
+                <p>
+                    <label class="labell" for="fecha">Fecha de nacimiento</label>
+                    <input id="main-agrandar" type="date" name="fecha" id="fecha" required>
+                </p>
+                <p>
+                    <input id="main-agrandar" type="text" name="Domicilio" placeholder="Domicilio" required>
+                </p>
+                <p>
+                    <label class="perfil" for="fecha">Perfil del Usuario</label>
+                    <input type="radio" name="perfil1" id="perfil" required> <label >Comprador</label>
+                    <input type="radio" name="perfil2" id="perfil" required> <label >Vendedor</label>
+                </p>
+                <p>
+                    <label class="labell">Intereses</label>
+                    <div class="main-conte-2"><input id="main-check" type="checkbox" name="Intereses"  required> <label >Electro</label></div>
+                    <div class="main-conte-2"><input id="main-check" type="checkbox" name="Intereses"  required> <label >Moda</label></div>
+                    <div class="main-conte-2"><input id="main-check" type="checkbox" name="Intereses"  required> <label >Hogar</label></div>
+                    <div class="main-conte-2"><input id="main-check" type="checkbox" name="Intereses"  required> <label >Jugueteria</label></div>
+                    <div class="main-conte-2"><input id="main-check" type="checkbox" name="Intereses"  required> <label >Vida Sana</label></div>
+                </p>
+                <p class="jpg">
+                    <label class="labell"> Seleccionar una imagen para el perfil</label>
+                    <input type="file" name="avatar" accept=".jpg">
+                </p>
+                <p>
+                    <input id="main-agrandar" type="password" name="password" placeholder="Contraseña" required>
+                </p>
+                <button id="enviar" type="submit"><a id="enviar" href="http://localhost:3000/home2">Enviar</a> </button>
+                <button id="enviar1" type="reset"> Borrar</button>
+            </form>
+        </nav>
+    </main>
+</body>
+</html>
