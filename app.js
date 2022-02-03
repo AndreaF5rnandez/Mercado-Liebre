@@ -6,13 +6,6 @@ const publicPath = path.resolve(__dirname,'./public');
 
 app.use(express.static(publicPath));
 
-var puerto;
-if(process.env.PORT) {
-  puerto = process.env.PORT;
-} else {
-  puerto = 3000;
-}
-
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
