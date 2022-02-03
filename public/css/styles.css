@@ -25,6 +25,9 @@ a #hambur{
 .logo{
     width: 45%;
 }
+.logo1{
+    width: 20%;
+}
 .header-flex{
     display: flex;
     justify-content: space-around;
@@ -335,6 +338,10 @@ a #hambur{
         align-self: center;
     }
     .logo{
+        display: flex;
+        align-self: center;
+    }
+    .logo1{
         display: flex;
         align-self: center;
     }

@@ -11,11 +11,8 @@ app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/home.html'));
-});
 
-app.get('/home2', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname,'./views/home2.html'));
 });
 
