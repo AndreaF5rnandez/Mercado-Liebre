@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    margin: 0px;
 }
 .header1{
     background-color: #EAC926;
@@ -24,9 +25,6 @@ a #hambur{
 }
 .logo{
     width: 45%;
-}
-.logo1{
-    width: 20%;
 }
 .header-flex{
     display: flex;
@@ -326,6 +324,7 @@ a #hambur{
         align-self: center;
         justify-content: space-between;
         margin-bottom: 30px;
+        margin-top: 15px;
     }
     .header-flex{
         display: flex;
@@ -338,10 +337,6 @@ a #hambur{
         align-self: center;
     }
     .logo{
-        display: flex;
-        align-self: center;
-    }
-    .logo1{
         display: flex;
         align-self: center;
     }
@@ -458,5 +453,15 @@ a #hambur{
     }
     .Mpadre1 #nombre{
         display: block;
+    }
+    .header1{
+        width: 100%;
+        margin:auto;
+    }
+    .fondo22{
+        width: 100%;   
+    }
+    .fondo33{
+        width: 100%;
     }
 }
